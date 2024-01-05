@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuries.css">
+    
+</head>
+<body>
+    <nav id="desktop_nav">
+        <div class="logo">S.Indra N</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger_nav">
+        <div class="logo">S.Indra N</div>
+        <div class="hamburger_menu">
+        <div class="hamburger_icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+<div class="menu_links">
+    <li><a href="#About"     onclick="toggleMenu()">About</a></li>
+    <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+    <li><a href="#Projects"  onclick="toggleMenu()">Projects</a></li>
+    <li><a href="#Contacts"  onclick="toggleMenu()">Contacts</a></li>
+
+</div>
+</div>
+    </nav>
+<section id="profile">
+   
+    <div class="section_profile_container">
+        <img src="profileimagenew.png" alt="sanju">
+    </div>
+   
+   
+    <div class="section_text">
+
+<div class="group">
+  <div class="section_text_p1">Hello, im</div>
+  <h1 class="section_title">S.Indra N</h1>
+</div>
+  <div class="section_text_p2">Frontend Developer</div>
+
+
+  <div class="btn_container">
+
+    <button class="btn btn_color_2" onclick="window.open('resume-example.pdf')">Download CV</button>
+
+  
+    <button class="btn btn_color_1" onclick="location.href = '#Contacts'">Contact Info</button>
+
+   </div>
+
+   <div id="socials_container">
+    <img src="linkedin.png" alt="linkedin" class="icon" onclick="location.href='https://www.linkedin.com/'"/>
+    <img src="github.png" alt="github" class="icon" onclick="location.href='https://github.com/animal831?tab=repositories'"/>
+</div>
+
+   </div>
+
+   
+   <img src="arrow.png" alt="arrow icon" class="icon arrow side" onclick="location.href='./#about'">
+
+
+</section>
+<section id="about">
+    
+    <p class="section_text_p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section_container">
+        <div class="section_pic_container">
+            <img src="Work Experience.png" 
+            alt="aboutpic" 
+            class="about_pic">
+
+        </div>
+        <div class="about_details_container">
+            <div class="about_containers">
+                <div class="details_container">
+                    <img src="experience.png" 
+                    alt="experience_icon" 
+                    class="icon">
+                    <h3>Experience</h3>
+                    <p>Fresher <br>Frontend</p>
+                </div>
+                <div class="details_container">
+                    <img src="education.png" 
+                    alt="education_icon" 
+                    class="icon">
+                    <h3>Education</h3>
+                    <p>B.Tech Bachelors Degree <br>Ms Masters Degree</p>
+                </div>
+            </div>
+            <div class="text_container"><p>A motivated individual with a Master's in Management eager to transition into Front-End Development. 
+                Armed with a passion for technology and a solid foundation in business, seeking opportunities to apply existing skills, 
+                enhance expertise through continuous learning,
+                 and contribute innovative solutions in the dynamic world of web development.</p></div>
+        </div>
+    </div>
+    <img src="arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+
+<section id="experience">
+    <div class="grouped">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+</div>
+    <div class="experience_details_container">
+        <div class="about_containers experience_containers" >
+            <div class="details_container">
+                <h2 class="experience_sub_title">Frontend Development</h2>
+                <div class="article_container" >
+                    <article>
+                        <img src="checkmark.png" alt="experienceicon" class="icon">
+<div>
+    <h3>HTML</h3>
+    <p>Intermediate</p>
+</div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="experienceicon" class="icon">
+<div>
+    <h3>CSS</h3>
+    <p>Intermediate</p>
+</div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="experienceicon" class="icon">
+<div>
+    <h3>JavaScript</h3>
+    <p>Basic</p>
+</div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="experienceicon" class="icon">
+<div>
+    <h3>Bootstrap</h3>
+    <p>Intermediate</p>
+</div>
+                    </article>
+                    
+                    
+                </div>
+            </div>
+            <div class="details_container">
+                <h2 class="experience_sub_title">Backend Development</h2>
+                <div class="article_container" >
+                    
+                    <article>
+                        <img src="checkmark.png" alt="experienceicon" class="icon">
+<div>
+    <h3>Core Java</h3>
+    <p>Basic</p>
+</div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="experienceicon" class="icon">
+<div>
+    <h3>Git</h3>
+    <p>Intermediate</p>
+</div>
+                    </article>
+              
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="arrow.png" alt="arrow icon" class="icon arrow side" onclick="location.href='./#projects'">
+</section>
+<section id="projects">
+    <p class="section_text_p1 side">Browse my Recent</p>
+    <h1 class="title side">Projects</h1>
+    <div class="experience_details_container side">
+    <div class="about_containers">
+        <div class="details_container color_container">
+            <div class="article_container">
+                <img src="amazonhome.jpg" alt="project1" class="project_img">
+            </div>
+            <div class="experience_sub_title project_title">Project One</div>
+            <div class="btn_container">
+                <button class="btn btn_color_2 project_btn" onclick="location.href='https://github.com/animal831/Amazon_Clone_Sanju_Html_Css'">Github</button>
+                <button class="btn btn_color_2 project_btn" onclick="location.href='https://github.com/animal831/Amazon_Clone_Sanju_Html_Css'">Live Demo</button>
+            </div>
+        </div>
+        <div class="details_container color_container">
+            <div class="article_container">
+                <img src="myntrahome.jpg" alt="project2" class="project_img">
+            </div>
+            <div class="experience_sub_title project_title">Project Two</div>
+            <div class="btn_container">
+                <button class="btn btn_color_2 project_btn" onclick="location.href='https://github.com/animal831/myntra_Clone'">Github</button>
+                <button class="btn btn_color_2 project_btn" onclick="location.href='https://github.com/animal831/Amazon_Clone_Sanju_Html_Css'">Live Demo</button>
+            </div>
+        </div>
+        <div class="details_container color_container">
+            <div class="article_container">
+                <img src="glass.png" alt="project3" class="project_img">
+            </div>
+            <div class="experience_sub_title project_title">Project Three</div>
+            <div class="btn_container">
+                <button class="btn btn_color_2 project_btn" onclick="location.href='https://github.com/animal831/glass_Calculator'">Github</button>
+                <button class="btn btn_color_2 project_btn" onclick="location.href='https://github.com/animal831/Amazon_Clone_Sanju_Html_Css'">Live Demo</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="arrow.png" alt="arrow icon" class="icon arrow side" onclick="location.href='./#contacts'">
+</section>
+
+<section id="contacts" class="side">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact_info_upper_container ">
+        <div class="contact_info_container">
+            <img src="email.png" alt="email icon" class="icon email_icon">
+
+     <p><a href="mailto:ssailendraneelamuk@gmail.com">ssailendraneelamuk@gmail.com</a></p>
+        </div>
+        <div class="contact_info_container">
+            <img src="linkedin.png" alt="linkedIn icon" class="icon linkedin_icon">
+
+     <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav>
+<div class="nav_links_container">
+    <ul class="nav_links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+    </ul>
+</div>
+</nav>
+<p>Copyright &#169; 2024 S.Indra N. All Rights Reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
